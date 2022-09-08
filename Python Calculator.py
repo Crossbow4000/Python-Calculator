@@ -43,8 +43,7 @@ while loopRunner == 1:
         operationIsDefined = True
         secondNumberCheck = False
         firstNumberCheck = False
-        newOperation = "adding "
-        print("Your result of " + newOperation + firstNumber + " to " + secondNumber + " was " + finalNumberString)
+        print("Your result of adding " + firstNumber + " to " + secondNumber + " was " + finalNumberString)
     elif operation == "subtract" or operation == "Subtract":
         while firstNumberCheck == False and secondNumberCheck == False:
             firstNumber = input("Type the first number you want to " + operation + "   ")
@@ -74,8 +73,7 @@ while loopRunner == 1:
         operationIsDefined = True
         secondNumberCheck = False
         firstNumberCheck = False
-        newOperation = "subtracting "; 
-        print("Your result of " + newOperation + firstNumber + " from " + secondNumber + " was " + finalNumberString)
+        print("Your result of subtracting " + firstNumber + " from " + secondNumber + " was " + finalNumberString)
     elif operation == "multiply" or operation == "Multiply":
         while firstNumberCheck == False and secondNumberCheck == False:
             firstNumber = input("Type the first number you want to " + operation + "   ")
@@ -105,8 +103,7 @@ while loopRunner == 1:
         operationIsDefined = True
         secondNumberCheck = False
         firstNumberCheck = False
-        newOperation = "multiplying "; 
-        print("Your result of " + newOperation + firstNumber + " by " + secondNumber + " was " + finalNumberString)
+        print("Your result of multiplying" + firstNumber + " by " + secondNumber + " was " + finalNumberString)
     elif operation == "divide" or operation == "Divide":
         while firstNumberCheck == False and secondNumberCheck == False:
             firstNumber = input("Type the first number you want to " + operation + "   ")
@@ -136,8 +133,7 @@ while loopRunner == 1:
         operationIsDefined = True
         secondNumberCheck = False
         firstNumberCheck = False
-        newOperation = "dividing "; 
-        print("Your result of " + newOperation + firstNumber + " by " + secondNumber + " was " + finalNumberString)
+        print("Your result of dividing " + firstNumber + " by " + secondNumber + " was " + finalNumberString)
     else:
         operationIsDefined = False
     
